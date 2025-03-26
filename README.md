@@ -1,3 +1,5 @@
-# My Project  
-This is how my project looks:  
-![UI Preview](screenshot/day1 UI.png)
+# Project Title
+
+## UI Design Preview
+
+![UI Design](screenshot/day1%20UI.png)
