@@ -270,45 +270,88 @@ ul li a {
   font-weight: bold;
 }
 
-.group2 {
-  display: flex;
-  position: absolute;
-  bottom: -2070px;
-  left: 420px;
-  width: 50px;
- 
+.trending-imgs{
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+}
+
+.outline-fav{
+position: absolute;
+ width: 50px;
+ right: 20px;
+ top: 20px;
 
 }
+#outline-fav1{
+    display: block;
+}
+#outline-fav2{
+    display: block;
+}
+#outline-fav3{
+    display: block;
+}
+
+#fav1{
+    display: none;
+}
+#fav2{
+    display: none;
+}
+#fav3{
+    display: none;
+}
+
+
+
+/* .outline-img1 {
+  display: flex;
+  position: absolute; */
+  /* bottom: -2070px; */
+  /* top: 16px;
+  right: 30px; */
+  /* left: 420px; */
+  /* width: 50px;
+ 
+
+} */
 
 .loxe {
   font-weight: bold;
 }
 
-.group2b {
+/* .outline-img2 {
   display: flex;
   position: absolute;
-  bottom: -2070px;
-  left: 915px;
-  width: 50px;
+  /* bottom: -2070px; */
+  /* top: 16px; */
+  /* left: 915px; */
+  /* right: 30px; */
+  /* width: 50px; */
  
-}
+/* } */ */
 
-.group2c {
+/* .outline-img3 {
   display: flex;
   position: absolute;
-  bottom: -2070px;
-  right: 50px;
-  width: 50px;
+  top: 16px;
+  right: 30px; */
+  /* bottom: -2070px; */
+  /* right: 50px; */
+  /* width: 50px; */
  
-}
+/* } */
 
-.button-style-bottom {
+.button-style {
   position: absolute;
-  bottom: -3750px;
+  border: 2px solid red;
+  bottom: -750px;
   margin-left: 30px;
   padding: 15px;
-  border: none;
-  background-color: white;
+  /* border: none; */
+  background-color: red;
   color: black;
   border-radius: 50px;
   font-weight: bold;
@@ -318,6 +361,7 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .show-button {
@@ -406,3 +450,8 @@ footer {
     flex-direction: column;
     gap: 20px;
   }
+
+
+  /* .like-btn{
+    display: none;
+  } */
