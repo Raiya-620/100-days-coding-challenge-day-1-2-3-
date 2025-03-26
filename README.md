@@ -1,3 +1,3 @@
 # My Project  
 This is how my project looks:  
-![UI Preview](screenshots/ui-preview.png)
+![UI Preview](screenshot/day1 UI.png)
